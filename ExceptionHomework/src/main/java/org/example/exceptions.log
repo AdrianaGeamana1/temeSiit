@@ -1,0 +1,53 @@
+Dec 20, 2023 8:15:35 PM org.example.App main
+INFO: start app
+Dec 20, 2023 8:15:35 PM org.example.StudentRepository saveStudents
+INFO: start save student
+Dec 20, 2023 8:15:35 PM org.example.StudentRepository saveStudents
+INFO: end of saving student
+Dec 20, 2023 8:15:35 PM org.example.StudentRepository saveStudents
+INFO: start save student
+Dec 20, 2023 8:15:35 PM org.example.StudentRepository saveStudents
+INFO: end of saving student
+Dec 20, 2023 8:15:35 PM org.example.StudentRepository saveStudents
+INFO: start save student
+Dec 20, 2023 8:15:35 PM org.example.StudentRepository saveStudents
+INFO: end of saving student
+Dec 20, 2023 8:15:35 PM org.example.StudentRepository saveStudents
+INFO: start save student
+Dec 20, 2023 8:15:35 PM org.example.StudentRepository saveStudents
+INFO: end of saving student
+Dec 20, 2023 8:15:35 PM org.example.StudentRepository saveStudents
+INFO: start save student
+Dec 20, 2023 8:15:35 PM org.example.StudentRepository saveStudents
+SEVERE: cnp should be exactly 13 digits long
+java.lang.IllegalArgumentException: cnp should be exactly 13 digits long
+	at org.example.ValidationClass.verifyCnp(ValidationClass.java:7)
+	at org.example.StudentRepository.saveStudents(StudentRepository.java:40)
+	at org.example.App.main(App.java:24)
+
+Dec 20, 2023 8:15:35 PM org.example.StudentRepository saveStudents
+INFO: end of saving student
+Dec 20, 2023 8:15:35 PM org.example.StudentRepository deleteStudent
+INFO: start delete student
+Dec 20, 2023 8:15:35 PM org.example.StudentRepository deleteStudent
+WARNING: The student you want to delete doesn't exist in the file
+java.lang.IllegalArgumentException: The student you want to delete doesn't exist in the file
+	at org.example.StudentRepository.deleteStudent(StudentRepository.java:71)
+	at org.example.App.main(App.java:25)
+
+Dec 20, 2023 8:15:35 PM org.example.StudentRepository deleteStudent
+INFO: end of deleting student
+Dec 20, 2023 8:15:35 PM org.example.StudentRepository listStudentsByLastName
+INFO: start sorting students by last name
+Dec 20, 2023 8:15:35 PM org.example.StudentRepository listStudentsByLastName
+INFO: Ending sorting students by last name
+Dec 20, 2023 8:15:35 PM org.example.StudentRepository listStudentsByBirthDate
+INFO: start sorting student by Birth Date
+Dec 20, 2023 8:15:35 PM org.example.StudentRepository listStudentsByBirthDate
+INFO: Ending sorting students by birth date
+Dec 20, 2023 8:15:35 PM org.example.StudentRepository retrieveAllStudentsOfAgeX
+INFO: start retrieve students by 33
+Dec 20, 2023 8:15:35 PM org.example.StudentRepository retrieveAllStudentsOfAgeX
+INFO: ending retrieve students by 33
+Dec 20, 2023 8:15:35 PM org.example.App main
+INFO: end app
